@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apply for memebrship - Ereteti Dairy Sacco</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ereteti Dairy Sacco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- placeholder: swap for img/favicon.png -->
+  <link rel="icon" type="image/png"
+        href="/images/favicon-edairy.png">
 </head>
 <body>
-     <header>
-        <h1> Apply For Membership </h1>
-        <p>Milk collected twice a day, on three routes out of Ngong.</p>
-        <nav>
-            <a href="/index.html">Home</a>
-            <a href="/about.html">About</a>
-            <a href="/routes.html">Our routes</a>
-            <a href="/contact.html">Contact</a>
-            <a href="/register.html">Join</a>
-             <a href="/deliveries.html">Deliveries</a>
-        </nav>
-    </header>
+
+  <header>
+    <h1>
+      <!-- placeholder: swap for img/logo.png -->
+      <img src="/images/logo-edairy.png"
+           alt="Logo for the SACCO" class="logo" width="200" height="200">
+      Ereteti Dairy Sacco
+    </h1>
+    <p>Milk collected twice a day, on three routes
+       out of Ngong.</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="routes.html">Routes</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="register.html">Join</a></li>
+      <li><a href="deliveries.html">Deliveries</a>
+      </li>
+    </ul>
+  </nav>
     <main>
         <p>
             Any dairy farmer within reach of one of our three routes
@@ -32,11 +50,15 @@
             
             <label for="fname">First Name </label>
                 <input type="text" id="fname" name = "first_name" required>
+                <br>
             <label for="lname">Last Name </label>
-                <input type="text" id="lname" name="last_name">
+                <input type="text" id="lname" name="last_name" required>
+                <br>
             <label for="id">National ID </label>
                 <input type="text" id="id" name = "national_id" required>
+                <br>
             <label for="phone">Phone </label>
+
                 <input 
                     type="tel" 
                     id="phone" 
@@ -46,6 +68,7 @@
                     title="Ten digits, starting 07"
                     required
                 >
+                <br>
            </fieldset>
            <fieldset>
             <legend>Your Route</legend>
@@ -56,7 +79,9 @@
                 <option value="Kiserian">Ngong</option>
                 <option value="Kiserian">Rongai</option>
             </select>
+            <br>
             <label for="date">Date Of Joining</label>
+            <br>
             <input type="date" id="date" max="2026-09-24" name="date_joined">
            </fieldset>
            <label for="rules">
@@ -67,7 +92,17 @@
 
         </form>
     </main>
-
+<aside>
+<h2>Notices</h2>
+<ul>
+<li>Milk is paid at <strong>KSh 52.00 a litre</strong> from
+1 October 2026.</li>
+<li>Annual General Meeting: Saturday 17 October, 10 a.m., at the
+Kiserian collection centre.</li>
+<li>New members: <a href="register.html">apply to join</a>. You need
+a national ID and a bank account.</li>
+</ul>
+</aside>
 <footer>
     <p>Ereteti Dairy Sacco, PO Box 4021, Ngong.</p>
     <p>Site built by Samuel Musyoka, DBT Year 1, 2026.</p>
