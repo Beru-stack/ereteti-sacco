@@ -58,7 +58,7 @@ event.preventDefault();
 checkMember();
 checkLitres();
 if (member.classList.contains('invalid')) {
-member.blur();
+member.focus();
 } else if (litres.classList.contains('invalid')) {
 litres.focus();
 } else {
