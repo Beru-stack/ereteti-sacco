@@ -30,6 +30,7 @@ mysqli_stmt_bind_param($stmt, 'i', $id);
 mysqli_stmt_execute($stmt);
 $delivery = mysqli_fetch_assoc(mysqli_stmt_get_result($stmt));
 $page_title = 'Edit a delivery';
+$page_heading = 'Edit a delivery';
 include 'includes/header.php';
 ?>
 <main>

@@ -58,7 +58,8 @@ if (count($errors) === 0) {
 }
 
 // 6 · Something was wrong: say what, in words a clerk understands
-$page_title = 'Delivery not recorded';
+$page_title = 'Record a delivery';
+$page_heading = 'Record a delivery';
 include 'includes/header.php';
 ?>
 <main>
