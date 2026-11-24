@@ -15,14 +15,14 @@
   <script src="js/main.js" defer></script>
   <!-- placeholder: swap for img/favicon.png -->
   <link rel="icon" type="image/png"
-        href="/images/favicon-edairy.png">
+        href="images/favicon-edairy.png">
 </head>
 <body>
 
   <header>
     <h1>
       <!-- placeholder: swap for img/logo.png -->
-      <img src="/images/logo-edairy.png"
+      <img src="images/logo-edairy.png"
            alt="Logo for the SACCO" class="logo" width="200" height="200">
       <?php echo $page_heading; ?>
     </h1>
