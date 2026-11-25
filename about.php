@@ -21,9 +21,9 @@
             <footer>Mary Sankale, chairperson</footer>
     </blockquote>
         
-    <img src="/images/first-cooler.jpg" width = "400" height = "300" alt="The first cooler, still in use at the Kiserian centre">
+    <img src="images/first-cooler.jpg" width = "400" height = "300" alt="The first cooler, still in use at the Kiserian centre">
 
-    <img src="/images/collection-lorry.jpg" width = "400" height = "300" alt="Churns loaded onto the lorry on the Ngong road at sunrise">
+    <img src="images/collection-lorry.jpg" width = "400" height = "300" alt="Churns loaded onto the lorry on the Ngong road at sunrise">
     </main>
     <aside>
 <h2>Notices</h2>
